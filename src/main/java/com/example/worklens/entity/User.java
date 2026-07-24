@@ -19,11 +19,7 @@ public class User {
     @Column(name = "password")
     public String password;
 
-    public User(Long id, String name, String email, String password) {
-        this.user_id = id;
-        this.full_name = name;
-        this.email = email;
-        this.password = password;
+    public User() {
     }
 
     //GETTER
