@@ -3,6 +3,8 @@ package com.example.worklens.exception;
 import com.example.worklens.exception.custom.DuplicateResourceException;
 import com.example.worklens.exception.custom.ForbiddenAccessException;
 import com.example.worklens.exception.custom.ResourceNotFoundException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
