@@ -5,6 +5,6 @@ import java.time.LocalDateTime;
 
 public record ExceptionResponse (
         String message,
-        HttpStatus status,
+        int status,
         LocalDateTime timestamp
 ) {}
